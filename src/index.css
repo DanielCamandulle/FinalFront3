@@ -1,0 +1,189 @@
+a {
+  color: #000;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(136, 136, 136);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.button-container {
+  background-color: transparent;
+  border: solid 0.1rem rgb(116, 220, 204);
+  border-radius: 0.75rem;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.card {
+  align-items: center;
+  border: 1px solid rgb(116, 220, 204);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 0.5rem;
+  width: 15vw;
+}
+
+.card:hover {
+  border: 0.5px solid rgb(7, 8, 8);
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 100vh;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  margin-bottom: 7rem;
+  padding-bottom: 5rem;
+  width: 90vw;
+}
+
+.card-detail {
+  border: 1px solid rgb(116, 220, 204);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 30vh;
+  margin-top: 10rem;
+  width: 50vw;
+}
+
+.card-img {
+  margin-top: 0.7rem;
+  height: auto;
+  width: 15vw;
+}
+
+.card-detail-img {
+  align-items: center;
+  margin: 0.7rem 0;
+  height: auto;
+  justify-content: flex-start;
+  width: 13vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.dark {
+  background-color: #07070796;
+  color: white;
+}
+
+.dark > a {
+  color: white;
+}
+
+.favButton {
+  background-color: rgb(121, 224, 209);
+  border: none;
+  border: 0.5px solid rgb(136, 136, 136);
+  cursor: pointer;
+  padding: 1rem 0rem;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(120, 236, 245);
+  bottom: 0;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 0.5rem;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+footer > img {
+  margin: 0;
+  width: 200px;
+}
+
+footer > p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+form {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10rem 10rem 2rem 10rem;
+  width: auto;
+}
+
+form>button{
+  margin-top: 1rem;
+  padding: 0.2rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+input{
+  width: 40rem;
+}
+
+main {
+  height: auto;
+  padding-bottom: 3rem;
+}
+
+#error, #msgSucess{
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(120, 236, 245);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.text-align {
+  text-align: left;
+  margin-left: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 1px solid #ccc;
+  display: table;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
